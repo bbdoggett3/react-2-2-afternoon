@@ -1,4 +1,122 @@
-.App {
+body {
+  background-color: #222222;
+}
+
+.nav-header {
+  background-color: #34A5DA;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: flex-start;
+ 
+
+}
+
+.nav-header, h3 {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.person-container { 
+  width: 80vw;
+  height: 60vh;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding-top: 20px;
+  background-color: white;
+}
+
+.person-info-child {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.person-info-child h4 {
+  font-size: 30px;
+  text-decoration: underline #34A5DA; 
+
+}
+
+.person-info-child span {
+  font-weight: bolder;
+}
+
+.page-counter {
+  width: 100px;
+  height: 100px;
+  float: right;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.nav-bar-below {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-evenly;
+}
+
+.prev-next {
+  color: white;
+  background-color:  #222222;
+  border: none;
+  font-size: 20px;
+  font-style: bold; 
+}
+
+.prev-next:hover {
+  color:  #34A5DA;
+}
+
+.buttons {
+  background-color: #34A5DA;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px 13px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.buttons:hover {
+  background-color: white;
+  color: #34A5DA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -25,7 +143,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  background-color: #34A5DA;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +153,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
