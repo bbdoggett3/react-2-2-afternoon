@@ -1,7 +1,15 @@
+/**************************************************
+* Author: Benjamin Doggett
+*
+* This is my afternoon project I made from
+* stratch to test moving through data the App.js
+* is my main component.
+***************************************************/
 import React, { Component } from 'react';
 import './App.css';
 import Person from './components/Person';
 import data from './data';
+import Navigate from './components/Navigate';
 
 class App extends Component  {
 constructor() {
@@ -43,16 +51,9 @@ buttonPrev() {
           <h3>Home</h3>
         </header>
           <Person person = {this.state.person[this.state.index]}/>
-        <div className="nav-bar-below">
-          <button className= "prev-next" onClick = {this.buttonPrev}>Previous</button>
-          <div>
-            <button className = "buttons">Edit</button>
-            <button className = "buttons">Delete</button>
-            <button className = "buttons">New</button>
-          </div>
-          <button className= "prev-next" onClick = {this.buttonNext}>Next ></button>
-        </div>
-      </div>
+          <Navigate next = {this.buttonNext}
+                    prev = {this.buttonPrev}/>
+      </div> 
     );
   }
 

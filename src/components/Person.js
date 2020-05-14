@@ -1,3 +1,9 @@
+/***********************************************
+ * This child component holds information
+ * of the person in the data.js file. I have
+ * created a props to pass in that information 
+ * from the App.js
+ ***********************************************/
 import React from 'react';
 
 function Person(props) {
