@@ -8,14 +8,14 @@ import React from 'react';
 
 function Navigate(props) {
     return <div className="nav-bar-below">
-    <button className= "prev-next" onClick = {props.prev}>Previous</button>
+      <button className = "prev-next" onClick = {props.prev}>{"<"} Previous</button>
     <div>
       <button className = "buttons">Edit</button>
       <button className = "buttons">Delete</button>
       <button className = "buttons">New</button>
     </div>
-    <button className= "prev-next" onClick = {props.next}>Next ></button>
-  </div>
+      <button className = "prev-next" onClick = {props.next}>Next ></button>
+    </div>
 
 }
 
