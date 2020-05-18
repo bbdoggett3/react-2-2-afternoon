@@ -39,7 +39,6 @@ buttonPrev() {
   this.setState(element => ({
     index: element.index - 1
   }))
- 
 }
 
   render() {
